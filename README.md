@@ -6,7 +6,9 @@ https://developers.google.com/protocol-buffers/docs/gotutorial
 Examples files
 https://github.com/google/protobuf/tree/master/examples
 
-To generate **addressbook.pb.go** files
+To generate **addressbook.pb.go** file
+
+The protoc binary file was donwloaded from [github.com/google/protobuf](https://github.com/google/protobuf/releases) releases
 
 ```
 ./protoc --go_out=plugins=grpc:. addressbook.proto
